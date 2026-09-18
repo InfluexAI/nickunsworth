@@ -1,0 +1,7 @@
+:root{
+--grad-energy:linear-gradient(90deg,#EF4123 0%,#F7941E 100%); /* @kind color */
+--grad-energy-hover:linear-gradient(90deg,#FF5A3D 0%,#FFA83E 100%); /* @kind color */
+--grad-sunset:linear-gradient(135deg,#FF4938 0%,#FF7A00 55%,#FFA000 100%); /* @kind color */
+--grad-ember-dark:linear-gradient(160deg,#111111 0%,#2A1417 55%,#551126 100%); /* @kind color */
+--grad-text-energy:linear-gradient(90deg,#FF3838,#FF6A00,#FFC21A);
+}

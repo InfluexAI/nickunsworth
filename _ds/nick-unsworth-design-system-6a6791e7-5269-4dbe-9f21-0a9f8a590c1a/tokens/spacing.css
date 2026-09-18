@@ -1,0 +1,6 @@
+:root{
+--sp-4:4px;--sp-8:8px;--sp-12:12px;--sp-16:16px;--sp-24:24px;--sp-32:32px;
+--sp-40:40px;--sp-48:48px;--sp-64:64px;--sp-80:80px;--sp-96:96px;--sp-120:120px;--sp-144:144px;
+--section-pad-desktop:130px;--section-pad-tablet:90px;--section-pad-mobile:64px;
+--content-max:1280px;--text-measure:680px;--hero-measure:920px;
+}

@@ -1,0 +1,25 @@
+/* Real brand font files, mapped from the lifeonfire.com homepage screenshot roles:
+   Headlines (H1/H2/H3, "God-Given") -> ITC Blair Condensed Bold
+   Titles/eyebrows/kickers ("UNLEASH YOUR", small caps labels) -> Superior Title
+   Subheadlines/quotes ("Unleash Your God-Given Potential", testimonial leads) -> ITC Blair italic
+   Script accent words ("potential", "Movement", "Family") -> Rockness
+   Body/UI/nav/buttons -> Poppins */
+@font-face{font-family:'ITC Blair Condensed';src:url('../assets/fonts/ITC-Blair-Condensed-Light.ttf') format('truetype');font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:'ITC Blair Condensed';src:url('../assets/fonts/ITC-Blair-Condensed-Light-Italic.ttf') format('truetype');font-weight:300;font-style:italic;font-display:swap}
+@font-face{font-family:'ITC Blair Condensed';src:url('../assets/fonts/ITC-Blair-Condensed-Medium.ttf') format('truetype');font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:'ITC Blair Condensed';src:url('../assets/fonts/ITC-Blair-Condensed-Medium-Italic.ttf') format('truetype');font-weight:500;font-style:italic;font-display:swap}
+@font-face{font-family:'ITC Blair Condensed';src:url('../assets/fonts/ITC-Blair-Condensed-Bold.ttf') format('truetype');font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:'ITC Blair Condensed';src:url('../assets/fonts/ITC-Blair-Condensed-Bold-Italic.ttf') format('truetype');font-weight:700;font-style:italic;font-display:swap}
+@font-face{font-family:'ITC Blair';src:url('../assets/fonts/ITC-Blair-Light.ttf') format('truetype');font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:'ITC Blair';src:url('../assets/fonts/ITC-Blair-Light-Italic.ttf') format('truetype');font-weight:300;font-style:italic;font-display:swap}
+@font-face{font-family:'ITC Blair';src:url('../assets/fonts/ITC-Blair-Medium.ttf') format('truetype');font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:'ITC Blair';src:url('../assets/fonts/ITC-Blair-Medium-Italic.ttf') format('truetype');font-weight:500;font-style:italic;font-display:swap}
+@font-face{font-family:'ITC Blair';src:url('../assets/fonts/ITC-Blair-Bold.ttf') format('truetype');font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:'ITC Blair';src:url('../assets/fonts/ITC-Blair-Bold-Italic.ttf') format('truetype');font-weight:700;font-style:italic;font-display:swap}
+@font-face{font-family:'Poppins';src:url('../assets/fonts/Poppins-Regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Poppins';src:url('../assets/fonts/Poppins-RegularItalic.ttf') format('truetype');font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:'Poppins';src:url('../assets/fonts/Poppins-Medium.ttf') format('truetype');font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:'Poppins';src:url('../assets/fonts/Poppins-SemiBold.ttf') format('truetype');font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:'Poppins';src:url('../assets/fonts/Poppins-Bold.ttf') format('truetype');font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:'Rockness';src:url('../assets/fonts/Rockness.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Superior Title';src:url('../assets/fonts/Superior-Title-Light.otf') format('opentype');font-weight:300;font-style:normal;font-display:swap}

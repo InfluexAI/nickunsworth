@@ -1,0 +1,25 @@
+:root{
+--font-display:'Superior Title',Georgia,serif; /* headlines: H1/H2/H3, hero "God-Given" treatment */
+--font-title:'Superior Title',Georgia,serif; /* titles/eyebrows/kickers: "UNLEASH YOUR" style labels */
+--font-subheadline:'ITC Blair',Georgia,serif; /* subheadlines & quotes: italic supporting lines */
+--font-body:'Poppins',ui-sans-serif,system-ui,sans-serif; /* body/UI/nav/buttons */
+--font-accent:'Rockness',cursive; /* headline emphasis / script accent words: "potential", "Movement" */
+/* scale (desktop) */
+--fs-hero:5.5rem;
+--fs-h1:4.5rem;
+--fs-h2:3.25rem;
+--fs-h3:2.125rem;
+--fs-h4:1.625rem;
+--fs-body-lg:1.375rem;
+--fs-body:1.125rem;
+--fs-small:0.9375rem;
+--fs-eyebrow:0.875rem;
+--fs-cta:1rem;
+--lh-tight:0.98; /* @kind other */
+--lh-heading:1.08; /* @kind other */
+--lh-body:1.6; /* @kind other */
+--ls-tight:-0.01em;
+--ls-eyebrow:0.1em;
+}
+@media (max-width:1024px){:root{--fs-hero:3.75rem;--fs-h1:3rem;--fs-h2:2.25rem;--fs-h3:1.75rem;}}
+@media (max-width:640px){:root{--fs-hero:2.75rem;--fs-h1:2.25rem;--fs-h2:1.75rem;--fs-h3:1.5rem;--fs-h4:1.25rem;}}

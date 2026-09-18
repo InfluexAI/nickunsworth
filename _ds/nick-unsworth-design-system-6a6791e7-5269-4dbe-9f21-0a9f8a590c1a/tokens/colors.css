@@ -1,0 +1,38 @@
+:root{
+/* neutrals */
+--nu-black:#111111;
+--nu-charcoal:#252525;
+--nu-graphite:#333333;
+--nu-gray-md:#686868;
+--nu-gray-soft:#D9D9D9;
+--nu-gray-warm-lt:#F1F0ED;
+--nu-off-white:#F8F6F2;
+--nu-white:#FFFFFF;
+/* energy */
+--nu-ember-red:#FF3838;
+--nu-hot-coral:#FF4938;
+--nu-flame-orange:#FF6A00;
+--nu-vibrant-orange:#FF7A00;
+--nu-amber:#FFA000;
+--nu-gold:#FFC21A;
+/* deep accent */
+--nu-deep-ember:#551126;
+--nu-deep-burgundy:#35101A;
+/* semantic */
+--surface-page:var(--nu-white);
+--surface-warm:var(--nu-off-white);
+--surface-dark:var(--nu-black);
+--surface-dark-alt:#191919;
+--surface-card:var(--nu-white);
+--surface-card-dark:#191919;
+--border-default:#E5E5E5;
+--border-strong:var(--nu-charcoal);
+--border-input:#D8D8D8;
+--text-primary:var(--nu-black);
+--text-secondary:var(--nu-gray-md);
+--text-on-dark:var(--nu-white);
+--text-on-dark-secondary:#B9B9B9;
+--accent-primary:var(--nu-flame-orange);
+--accent-secondary:var(--nu-gold);
+--focus-ring:var(--nu-flame-orange);
+}
