@@ -40,7 +40,7 @@ function FinalCTA(){
         </p>
         <Button variant="primary">Start With My Free Workshop</Button>
       </div>
-      <div style={{position:'relative',display:'flex',justifyContent:'center',marginTop:'var(--sp-64)'}}>
+      <div style={{position:'relative',display:'flex',flexWrap:'nowrap',justifyContent:'center',marginTop:'var(--sp-64)',overflowX:'auto'}}>
         {[
           {name:'Facebook',label:'Stay Connected',path:'M15 8.5h-1.2c-.9 0-1.3.5-1.3 1.3V11H15l-.3 2H12.5v6h-2v-6H9V11h1.5V9.5C10.5 7.6 11.6 6 13.6 6H15v2.5z'},
           {name:'X',label:'Fuel the Conversation',path:'M13.6 10.6 20.4 3h-1.6l-5.9 6.6L8.1 3H3l7.1 9.9L3 19.9h1.6l6.3-7 5 7h5.1l-7.4-9.9zm-2.2 2.5-.7-1L5 4.3h2.4l4.7 6.5.7 1 6.1 8.5h-2.4l-5.1-7.2z'},
@@ -49,8 +49,8 @@ function FinalCTA(){
           {name:'LinkedIn',label:'Let\u2019s Connect',path:'M6.9 8.5a1.9 1.9 0 1 0 0-3.8 1.9 1.9 0 0 0 0 3.8zM5.2 10h3.4v9H5.2v-9zm5.6 0h3.3v1.3h.1c.5-.9 1.6-1.5 2.9-1.5 3.1 0 3.6 1.9 3.6 4.4V19h-3.4v-4.2c0-1 0-2.3-1.4-2.3s-1.7 1.1-1.7 2.3V19h-3.4v-9z'}
         ].map((s,i)=>(
           <React.Fragment key={s.name}>
-            {i>0&&<div style={{width:1,background:'rgba(255,255,255,.3)',alignSelf:'stretch'}}></div>}
-            <a href="#" aria-label={s.name} style={{padding:'var(--sp-32) var(--sp-40)',display:'flex',flexDirection:'column',alignItems:'center',gap:'var(--sp-16)'}}>
+            {i>0&&<div style={{width:1,background:'rgba(255,255,255,.3)',alignSelf:'stretch',flexShrink:0}}></div>}
+            <a href="#" aria-label={s.name} style={{padding:'var(--sp-32) var(--sp-24)',display:'flex',flexDirection:'column',alignItems:'center',gap:'var(--sp-16)',flexShrink:0}}>
               {s.outline
                 ? <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="var(--nu-white)" strokeWidth="1.5"><rect x="4" y="4" width="16" height="16" rx="4"/><circle cx="12" cy="12" r="3.5"/><circle cx="17" cy="7" r="0.9" fill="var(--nu-white)" stroke="none"/></svg>
                 : <svg width="60" height="60" viewBox="0 0 24 24" fill="var(--nu-white)"><path d={s.path}/></svg>}

@@ -41,7 +41,7 @@ function Hero(){
       <img src="assets/hero-stage.png" alt="Nick Unsworth speaking on stage to a full room" style={{position:'absolute',inset:0,width:'100%',height:'100%',objectFit:'cover',objectPosition:'center 30%'}} />
       <div style={{position:'absolute',inset:0,background:'linear-gradient(100deg,rgba(0,0,0,.86) 0%,rgba(0,0,0,.62) 45%,rgba(17,17,17,.35) 100%)'}}></div>
       <div className="wrap section-in" style={{position:'relative',padding:'var(--sp-144) var(--sp-40) var(--sp-96)',maxWidth:920,margin:'0 auto',textAlign:'center',display:'flex',flexDirection:'column',alignItems:'center'}}>
-        <h1 style={{fontFamily:'var(--font-display)',fontSize:'var(--fs-hero)',color:'var(--nu-white)',lineHeight:1.22,fontWeight:300}}>
+        <h1 style={{fontFamily:'var(--font-display)',fontSize:'var(--fs-hero)',color:'var(--nu-white)',lineHeight:1.32,fontWeight:300,marginTop:'var(--sp-24)',marginBottom:'var(--sp-24)'}}>
           <span style={{whiteSpace:'nowrap'}}>Turn Your <span className="nu-gradient-text" style={{fontFamily:'var(--font-accent)',fontSize:'1.2em'}}>Message</span> Into a</span><br/><span className="nu-gradient-text">Million-Dollar Brand</span>
         </h1>
         <p style={{fontFamily:'var(--font-body)',fontWeight:400,fontSize:'var(--fs-body-lg)',color:'rgba(255,255,255,.88)',marginTop:'var(--sp-24)',lineHeight:'var(--lh-body)'}} className="hero-sub-para">
@@ -70,7 +70,9 @@ function FeaturedIn(){
           </div>
         </div>
       </div>
-      <img src="assets/divider.svg" alt="" style={{width:'100%',display:'block',marginTop:'var(--sp-24)',transform:'scaleY(-1)'}} />
+      <div style={{width:'100%',overflow:'hidden',marginTop:'var(--sp-24)',lineHeight:0}}>
+        <img src="assets/divider.svg" alt="" style={{width:'100%',display:'block',transform:'scaleY(-1)',marginBottom:-2}} />
+      </div>
     </div>
   );
 }
