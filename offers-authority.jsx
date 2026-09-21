@@ -14,7 +14,7 @@ function OffersSection(){
     <div className="section offers-sec" style={{background:'var(--nu-black)',position:'relative',overflow:'hidden',padding:0}}>
       <img src="assets/offers-book-bg.jpg" alt="" className="offers-bg-img" />
       <div style={{position:'absolute',inset:0,background:'linear-gradient(90deg,rgba(12,10,9,.9) 0%,rgba(12,10,9,.84) 52%,rgba(12,10,9,.4) 64%,rgba(12,10,9,0) 74%)'}}></div>
-      <div className="wrap" style={{position:'relative',display:'grid',gridTemplateColumns:'200px minmax(0,400px)',gap:'var(--sp-48)',padding:'calc(var(--sp-64) + 120px) var(--sp-40)',alignItems:'start'}}>
+      <div className="wrap" style={{position:'relative',display:'grid',gridTemplateColumns:'200px minmax(0,530px)',gap:'var(--sp-48)',padding:'calc(var(--sp-64) + 120px) var(--sp-40)',alignItems:'start'}}>
         <div style={{display:'flex',flexDirection:'column',gap:'var(--sp-40)',position:'relative'}}>
           <div style={{position:'absolute',left:5,top:6,bottom:6,width:1,background:'rgba(255,255,255,.18)'}}></div>
           {offers.map((s,i)=>(
@@ -29,7 +29,7 @@ function OffersSection(){
         </div>
         <div>
           <h2 style={{fontFamily:'var(--font-display)',fontSize:'clamp(1.75rem,3.4vw,var(--fs-h1))',fontWeight:300,color:'var(--nu-white)',marginTop:'-0.18em',marginBottom:'var(--sp-32)',}}><span style={{whiteSpace:'nowrap'}}>{o.title.slice(0,o.title.length-o.accent.length)}</span><span className="nu-gradient-text" style={{fontFamily:'var(--font-accent)',fontWeight:400,fontSize:'1.4em',display:'block'}}>{o.accent}</span></h2>
-          <p style={{fontSize:'var(--fs-body-lg)',color:'rgba(255,255,255,.8)',maxWidth:640,marginBottom:'var(--sp-40)'}}>{o.d}</p>
+          <p style={{fontSize:'var(--fs-body-lg)',color:'rgba(255,255,255,.8)',maxWidth:640,marginBottom:'var(--sp-40)',textWrap:'pretty'}} className="offer-desc">{o.d}</p>
           <Button variant="primary">{o.cta}</Button>
         </div>
       </div>

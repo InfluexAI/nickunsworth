@@ -22,7 +22,7 @@ a.link-cta:hover{color:var(--nu-flame-orange)}
 .section.method-sec{position:relative;overflow:hidden;background:var(--nu-black);padding-top:var(--sp-120);padding-bottom:var(--sp-120)}
 .method-list{margin-top:-12px}
 .method-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
-.method-veil{position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,6,6,.94) 0%,rgba(8,6,6,.9) 48%,rgba(8,6,6,.42) 62%,rgba(8,6,6,0) 76%)}
+.method-veil{position:absolute;inset:0;background:linear-gradient(0deg,rgba(6,5,5,.97) 0%,rgba(6,5,5,.88) 18%,rgba(6,5,5,.6) 34%,rgba(6,5,5,.28) 48%,rgba(6,5,5,0) 62%),linear-gradient(315deg,rgba(6,5,5,.88) 0%,rgba(6,5,5,.5) 22%,rgba(6,5,5,0) 46%),linear-gradient(90deg,rgba(8,6,6,.94) 0%,rgba(8,6,6,.9) 48%,rgba(8,6,6,.42) 62%,rgba(8,6,6,0) 76%)}
 .method-list{display:flex;flex-direction:column;max-width:760px}
 .method-row{display:grid;grid-template-columns:60px 1fr;gap:15px;padding:22px 0;border-top:1px solid rgba(255,255,255,.14)}
 .method-row:first-child{border-top:none}
@@ -124,5 +124,6 @@ a.link-cta:hover{color:var(--nu-flame-orange)}
 .offers-bg-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:100% center}
 .offers-sec{aspect-ratio:auto}
 .offers-bg-img{inset:0 -10% 0 10%}
-@media(max-width:1280px){.offers-bg-img{opacity:.14}}
-@media(min-width:1281px){.offers-bg-img{opacity:1}}
+@media(max-width:1599px){.offers-bg-img{opacity:.14}}
+@media(min-width:1600px){.offers-bg-img{opacity:1}}
+.offer-desc{font-size:17px!important;line-height:1.6}
