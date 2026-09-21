@@ -6,10 +6,10 @@ function StoriesSection(){
     {quote:'I chose courage over fear. Nick helped me find the gold that I did not see, reinvent myself, and relaunch.',name:'Wendi Freeman',img:'assets/wendi-freeman.png'},
   ];
   return (
-    <div className="section" style={{background:'var(--grad-sunset)'}}>
+    <div className="section" style={{background:'#FAF7F2'}}>
       <div className="wrap section-in">
         <div style={{marginBottom:'var(--sp-48)',maxWidth:600,marginLeft:'auto',marginRight:'auto',textAlign:'center'}}>
-          <h2 style={{fontFamily:'var(--font-display)',fontSize:'var(--fs-h2)',color:'var(--nu-white)'}}>Success Stories</h2>
+          <h2 style={{fontFamily:'var(--font-display)',fontSize:'var(--fs-h2)',color:'var(--nu-charcoal)'}}>Success <span className="nu-gradient-text" style={{fontFamily:'var(--font-accent)',fontWeight:400,fontSize:'1.4em'}}>Stories</span></h2>
         </div>
         <div className="story-grid">
           {stories.map((s,i)=>(
@@ -32,9 +32,9 @@ function AboutSection(){
   return (
     <div className="section" style={{background:'var(--surface-page)'}}>
       <div className="wrap about-grid">
-        <img src="assets/nick-about-photo.png" alt="Nick Unsworth speaking on stage" style={{width:'100%',display:'block'}} />
+        <img src="assets/nick-about-photo-new.jpg" alt="Nick Unsworth speaking on stage" style={{width:'100%',display:'block',borderRadius:'var(--radius-image)',boxShadow:'var(--shadow-medium)'}} />
         <div>
-          <h2 style={{fontFamily:'var(--font-display)',fontSize:'var(--fs-h2)',color:'#58595B',marginBottom:'var(--sp-24)'}}>Hi, I'm Nick Unsworth.</h2>
+          <h2 style={{fontFamily:'var(--font-display)',fontSize:'var(--fs-h2)',color:'#58595B',marginBottom:'var(--sp-24)'}}>Hi, I'm <span className="nu-gradient-text" style={{fontFamily:'var(--font-accent)',fontWeight:400,fontSize:'1.4em'}}>Nick Unsworth.</span></h2>
           <div style={{display:'flex',flexDirection:'column',gap:'var(--sp-24)',maxWidth:'var(--text-measure)'}}>
             <p style={{fontSize:'var(--fs-body-lg)',color:'#58595B'}}>I have spent my career helping people take what is inside them, their story, their experience, their expertise, and their calling and turn it into something the world can see, trust, and act on.</p>
             <p style={{fontSize:'var(--fs-body)',color:'#58595B'}}>I believe you can get paid to impact lives. I believe the work you are here to do can create more freedom, more influence, and more meaningful service. And I believe the right strategy can help you get there faster.</p>

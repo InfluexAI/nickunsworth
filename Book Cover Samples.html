@@ -1,0 +1,77 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Bestseller on Fire — Cover Samples</title>
+<link rel="stylesheet" href="_ds/nick-unsworth-design-system-6a6791e7-5269-4dbe-9f21-0a9f8a590c1a/tokens/fonts.css">
+<link rel="stylesheet" href="_ds/nick-unsworth-design-system-6a6791e7-5269-4dbe-9f21-0a9f8a590c1a/tokens/colors.css">
+<link rel="stylesheet" href="_ds/nick-unsworth-design-system-6a6791e7-5269-4dbe-9f21-0a9f8a590c1a/tokens/typography.css">
+<link rel="stylesheet" href="_ds/nick-unsworth-design-system-6a6791e7-5269-4dbe-9f21-0a9f8a590c1a/tokens/spacing.css">
+<link rel="stylesheet" href="_ds/nick-unsworth-design-system-6a6791e7-5269-4dbe-9f21-0a9f8a590c1a/tokens/radius.css">
+<link rel="stylesheet" href="_ds/nick-unsworth-design-system-6a6791e7-5269-4dbe-9f21-0a9f8a590c1a/tokens/shadows.css">
+<link rel="stylesheet" href="_ds/nick-unsworth-design-system-6a6791e7-5269-4dbe-9f21-0a9f8a590c1a/tokens/gradients.css">
+<link rel="stylesheet" href="_ds/nick-unsworth-design-system-6a6791e7-5269-4dbe-9f21-0a9f8a590c1a/tokens/base.css">
+<style>
+body{margin:0;background:var(--nu-off-white);font-family:'Poppins',sans-serif;color:var(--nu-black)}
+a{color:var(--nu-flame-orange)}a:hover{color:var(--nu-ember-red)}
+.page{max-width:1240px;margin:0 auto;padding:56px 32px 80px}
+.lede{max-width:620px;margin-bottom:48px}
+.lede h1{font-family:'ITC Blair Condensed',serif;font-weight:700;font-size:40px;line-height:1.05;margin:0 0 12px}
+.lede p{font-size:15px;line-height:1.6;color:var(--text-secondary);margin:0}
+.eyebrow{font-family:'Superior Title',serif;font-weight:300;text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--nu-flame-orange);margin-bottom:10px}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:48px 40px}
+.item{display:flex;flex-direction:column;gap:18px}
+.caption strong{display:block;font-family:'ITC Blair Condensed',serif;font-weight:700;font-size:20px;letter-spacing:.01em}
+.caption span{font-size:13px;line-height:1.55;color:var(--text-secondary)}
+/* --- book mockup shell --- */
+.book{position:relative;width:100%;max-width:300px;aspect-ratio:2/3;border-radius:3px 7px 7px 3px;overflow:hidden;box-shadow:0 24px 44px -18px rgba(17,17,17,.45),0 3px 10px rgba(17,17,17,.18);isolation:isolate}
+.book::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(0,0,0,.34) 0,rgba(0,0,0,.05) 14px,rgba(255,255,255,.16) 22px,rgba(255,255,255,0) 40px)}
+.cv{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;padding:34px 26px 26px 34px}
+.kick{font-family:'Superior Title',serif;font-weight:300;text-transform:uppercase;letter-spacing:.2em;font-size:9.5px}
+.title{font-family:'ITC Blair Condensed',serif;font-weight:700;text-transform:uppercase;line-height:.88;letter-spacing:-.01em}
+.script{font-family:'Rockness',cursive;text-transform:none;letter-spacing:0;font-weight:400}
+.sub{font-family:'ITC Blair',serif;font-style:italic;font-weight:500;font-size:12.5px;line-height:1.4}
+.byline{font-family:'Poppins',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.18em;font-size:10.5px}
+.rule{height:3px;border-radius:2px;background:var(--grad-energy,linear-gradient(90deg,#FF3838,#FF6A00,#FFC21A))}
+/* A — dark ember authority */
+.a{background:#111;color:#fff}
+.a .glow{position:absolute;z-index:1;left:-30%;bottom:-25%;width:150%;height:80%;background:radial-gradient(60% 60% at 40% 60%,rgba(255,106,0,.55),rgba(255,56,56,.18) 45%,transparent 72%)}
+.a .kick{color:var(--nu-gold)}
+.a .title{font-size:38px;letter-spacing:-.02em;margin:14px 0 0}
+.a .title .script{display:block;font-size:50px;line-height:.9;margin:6px 0 -4px;background:linear-gradient(90deg,#FF3838,#FF7A00 55%,#FFC21A);-webkit-background-clip:text;background-clip:text;color:transparent}
+.a .sub{color:#C8C4BE;margin-top:16px;max-width:190px}
+.a .byline{color:#fff;margin-top:auto}
+/* B — gradient energy band */
+.b{background:#FFFFFF;color:#111}
+.b .band{position:absolute;z-index:1;inset:0 0 auto;height:44%;background:linear-gradient(115deg,#FF3838,#FF6A00 52%,#FFA000 78%,#FFC21A)}
+.b .band::after{content:"";position:absolute;inset:auto 0 -1px;height:46px;background:#fff;clip-path:polygon(0 100%,100% 22%,100% 100%)}
+.b .cv{justify-content:flex-start}
+.b .kick{color:#fff;opacity:.92}
+.b .title{font-size:36px;letter-spacing:-.02em;color:#fff;margin:12px 0 0}
+.b .lower{margin-top:auto;display:flex;flex-direction:column;gap:14px}
+.b .title2{font-family:'ITC Blair Condensed',serif;font-weight:700;text-transform:uppercase;font-size:44px;line-height:.9;color:#111}
+.b .title2 .script{display:block;color:var(--nu-flame-orange);font-size:50px;line-height:.95;margin-top:2px}
+.b .sub{color:var(--text-secondary);max-width:200px}
+.b .byline{color:#111}
+/* C — warm editorial minimal */
+.c{background:var(--nu-off-white);color:#111}
+.c .cv{padding:38px 30px;align-items:center;text-align:center}
+.c .frame{position:absolute;inset:14px;border:1px solid rgba(17,17,17,.14);border-radius:2px}
+.c .kick{color:var(--nu-gray-md);position:relative}
+.c .title{font-size:34px;letter-spacing:-.01em;margin:20px 0 0;position:relative}
+.c .title .script{display:block;font-size:48px;color:var(--nu-ember-red);margin-top:4px}
+.c .rule{width:56px;margin:18px 0 0;position:relative}
+.c .sub{color:var(--text-secondary);margin-top:16px;max-width:200px;position:relative}
+.c .byline{margin-top:auto;position:relative}
+.c .seal{position:relative;margin-top:auto;display:flex;flex-direction:column;align-items:center;gap:10px}
+</style></head><body>
+<div class="page">
+<div class="lede"><div class="eyebrow">Sample covers · CSS mockups</div><h1>Bestseller on Fire — three cover directions</h1><p>These are hand-built type-and-color mockups (not generated photos) so you can see how the book would sit in the workshop opt-in card. Tell me which one to refine, and I'll drop it into the form in place of the upload slot.</p></div>
+<div class="row">
+
+<div class="item"><div class="book a"><div class="glow"></div><div class="cv"><div class="kick">Nick Unsworth</div><div class="title">Bestseller<span class="script">on Fire</span></div><div class="sub">Write, publish, launch, and profit from your book.</div><div class="byline">A Proven Author Playbook</div></div></div>
+<div class="caption"><strong>A · Dark Ember</strong><span>Charcoal authority cover, gradient script word, warm glow. Reads premium against the white opt-in card.</span></div></div>
+
+<div class="item"><div class="book b"><div class="band"></div><div class="cv"><div class="kick">Nick Unsworth</div><div class="title">Bestseller</div><div class="lower"><div class="title2">On<span class="script">Fire</span></div><div class="rule" style="width:52px"></div><div class="sub">Write, publish, launch, and profit from your book.</div><div class="byline">The Author Momentum Method</div></div></div></div>
+<div class="caption"><strong>B · Energy Band</strong><span>Signature red→gold gradient up top, white lower half. Highest contrast and most "launch" energy.</span></div></div>
+
+<div class="item"><div class="book c"><div class="frame"></div><div class="cv"><div class="kick">Nick Unsworth</div><div class="title">Bestseller<span class="script">on Fire</span></div><div class="rule"></div><div class="sub">Write, publish, launch, and profit from your book.</div><div class="seal"><div class="rule" style="width:36px"></div><div class="byline">Author · Speaker · Coach</div></div></div></div>
+<div class="caption"><strong>C · Warm Editorial</strong><span>Off-white, centered, restrained. Feels like a business-book bestseller; quietest of the three.</span></div></div>
+
+</div></div></body></html>
