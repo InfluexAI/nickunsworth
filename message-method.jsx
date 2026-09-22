@@ -37,11 +37,10 @@ function MethodSection(){
   ];
   return (
     <div className="section method-sec">
-      <img src="assets/method-bg.jpg" alt="" className="method-bg" />
-      <div className="method-veil"></div>
-      <div className="wrap section-in" style={{position:'relative'}}>
+      <div className="wrap section-in method-split" style={{position:'relative'}}>
+        <div className="method-col">
         <div style={{marginBottom:'calc(var(--sp-40) * 0.7)',maxWidth:640}}>
-          <h2 style={{fontFamily:'var(--font-display)',fontSize:'var(--fs-h2)',color:'var(--nu-white)',whiteSpace:'nowrap'}}>The Message-to-<span className="nu-gradient-text">Movement</span> <span className="nu-gradient-text" style={{fontFamily:'var(--font-accent)',fontSize:'1.35em'}}>Method</span></h2>
+          <h2 style={{fontFamily:'var(--font-display)',fontSize:'var(--fs-h2)',color:'var(--nu-white)'}}>The Message-to-<span className="nu-gradient-text">Movement</span> <span className="nu-gradient-text" style={{fontFamily:'var(--font-accent)',fontSize:'1.35em'}}>Method</span></h2>
         </div>
         <div className="method-list">
           {steps.map((s,i)=>(
@@ -54,6 +53,8 @@ function MethodSection(){
             </div>
           ))}
         </div>
+        </div>
+        <div className="method-figure"><img src="assets/method-nick-clean.png" alt="Nick Unsworth on stage" /></div>
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ function WorkshopSection(){
       <div className="workshop-hero-veil"></div>
       <div className="wrap workshop-hero-in">
         <div className="workshop-copy">
-          <h2 style={{fontFamily:'var(--font-display)',fontSize:'var(--fs-h2)',fontWeight:300,color:'var(--nu-white)',marginBottom:'var(--sp-16)'}}>Bestseller on Fire <span className="nu-gradient-text" style={{fontFamily:'var(--font-accent)',fontWeight:400,fontSize:'1.4em'}}>Workshop</span></h2>
+          <h2 style={{fontFamily:'var(--font-display)',fontSize:'calc(var(--fs-h2) * 1.3)',fontWeight:300,color:'var(--nu-white)',marginBottom:'var(--sp-16)',whiteSpace:'nowrap'}}>Bestseller on Fire <span className="nu-gradient-text" style={{fontFamily:'var(--font-accent)',fontWeight:400,fontSize:'1.4em'}}>Workshop</span></h2>
           <p style={{fontFamily:'var(--font-display)',fontWeight:300,fontSize:'var(--fs-h3)',color:'rgba(255,255,255,.92)',marginBottom:'var(--sp-24)'}}>Write, Publish, Launch, and Profit From Your New Bestselling Book.</p>
           <div style={{display:'flex',flexDirection:'column',gap:'var(--sp-16)',maxWidth:'var(--text-measure)'}}>
             <p style={{fontSize:'var(--fs-body)',color:'rgba(255,255,255,.82)'}}>If you are an expert, entrepreneur, author, speaker, coach, influencer, or creator, a bestselling book can become more than a book. It can become the authority asset that opens doors to ideal clients, podcasts, stages, media, and higher-value opportunities.</p>
@@ -18,7 +18,7 @@ function WorkshopSection(){
           <form className="workshop-optin-row" onSubmit={(e)=>e.preventDefault()}>
             <input className="pill-field" type="text" placeholder="Name" aria-label="Name" />
             <input className="pill-field" type="email" placeholder="Email" aria-label="Email" />
-            <Button variant="primary" type="submit" style={{flex:'0 0 auto',justifyContent:'center'}}><span style={{display:'block',textAlign:'center',whiteSpace:'nowrap'}}>SAVE MY SEAT + SUBSCRIBE</span></Button>
+            <Button variant="primary" type="submit" style={{flex:'1 1 0',minWidth:0,maxWidth:'none',justifyContent:'center'}}><span style={{display:'block',textAlign:'center',whiteSpace:'nowrap'}}>SAVE MY SEAT + SUBSCRIBE</span></Button>
           </form>
           <p className="workshop-optin-fine">By joining, you agree to receive emails from Nick Unsworth. Unsubscribe anytime.</p>
         </div>
